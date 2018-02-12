@@ -1,0 +1,42 @@
+.card-container img:hover {
+  cursor: pointer;
+}
+.card-container img {
+  height: 100px;
+  width: 100px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+img[data-value="1"] {
+  background: green;
+}
+img[data-value="0"] {
+  background: blue;
+}
+img[data-value="-1"] {
+  background: red;
+}
+.card-container {
+  width: 50%;
+  float: left;
+}
+.basic-container {
+  width: 40%;
+  float: left;
+}
+.text-container {
+  margin: auto;
+  width: 80%;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.text-container div {
+  font-size: 30px;
+}
+#true-count {
+  color: red;
+}
